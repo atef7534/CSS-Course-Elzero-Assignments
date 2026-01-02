@@ -1,7 +1,7 @@
 # CSS Assignments — Elzero Web School 🧑‍🎓
 
 Welcome! This repository contains the **CSS assignments I completed while following the CSS course from Elzero Web School**.  
-Each assignment is structured to match the official study plan and help demonstrate my understanding of CSS fundamentals and real‑world styling techniques. :contentReference[oaicite:1]{index=1}
+Each assignment is structured to match the official study plan and help demonstrate my understanding of CSS fundamentals and real‑world styling techniques. 
 
 ## 📘 About the Course
 
@@ -12,7 +12,7 @@ The CSS course from Elzero Web School covers a comprehensive set of topics, incl
 - Box model, margins, padding, borders  
 - Flexbox and Grid layout systems  
 - Responsive design with media queries  
-- Transforms, animations, and advanced properties :contentReference[oaicite:2]{index=2}
+- Transforms, animations, and advanced properties 
 
 Each lesson includes practical assignments that test your understanding of the concepts learned.
 
