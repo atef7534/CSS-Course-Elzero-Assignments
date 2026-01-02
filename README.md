@@ -21,7 +21,29 @@ Each lesson includes practical assignments that test your understanding of the c
 ## 📂 Repository Structure
 
 The assignments are organized into folders based on lesson groups:
-- [Elements And Naming](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Elements%20and%20Naming)
+- [Background, Margin, Padding](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Background%2C%20Margin%2C%20Padding)
+
+- [Border Radius, Box Shadow](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Border%20Radius%2C%20Box%20Shadow)
+
+- [Border, Outline, Display](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Border%2C%20Outline%2C%20Display)
+
+- [Elements and Naming](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Elements%20and%20Naming)
+
+- [Float, Opacity](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Float%2C%20Opacity)
+
+- [Inheritance, Typography](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Inheritance%2C%20Typography)
+
+- [Nesting, Dimensions, Overflow](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Nesting%2C%20Dimensions%2C%20Overflow)
+
+- [Position, List, Table](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Position%2C%20List%2C%20Table)
+
+- [Pseudo Classes, Pseudo Elements](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Pseudo%20Classes%2C%20Pseudo%20Elements)
+
+- [Text Formatting](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Text%20Formatting)
+
+- [Transitions, Variables](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Transitions%2C%20Variables)
+
+- 
 
 Each folder contains:
 
