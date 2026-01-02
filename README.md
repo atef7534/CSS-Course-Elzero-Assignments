@@ -21,7 +21,7 @@ Each lesson includes practical assignments that test your understanding of the c
 ## 📂 Repository Structure
 
 The assignments are organized into folders based on lesson groups:
-
+- [Elements And Naming](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Elements%20and%20Naming)
 
 Each folder contains:
 
