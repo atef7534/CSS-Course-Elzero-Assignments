@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Formatting</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      /* Assignment 01 */
+      .title {
+        font-family: "Arial";
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+        padding: 10px;
+        text-shadow: 2px 2px 0px #f44336, 4px 4px 0px #2196f3,
+          6px 6px 0px #992ab2;
+      }
+      /* Assignment 02 */
+      .one,
+      .two,
+      .three {
+        text-align: center;
+        font-size: 30px;
+        padding: 20px;
+        font-family: "Arial";
+      }
+      .one {
+        text-transform: uppercase;
+      }
+      .two {
+        text-transform: capitalize;
+      }
+      .three {
+        text-transform: lowercase;
+      }
+      /* Assignment 03 */
+      div {
+        background-color: #e7e7e7;
+        font-size: 22px;
+        font-family: "Arial";
+        padding: 20px;
+        margin: 20px;
+        width: 400px;
+      }
+      .ellipsis {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .ellipsis:hover {
+        overflow: visible;
+        white-space: wrap;
+      }
+      /* Assignment 04 */
+      .elzero-channel {
+        text-decoration: none;
+        color: white;
+        background-color: #009688;
+        font-weight: bold;
+        font-family: "Arial";
+        padding: 20px;
+        margin: 20px;
+        display: block;
+        width: fit-content;
+        text-transform: capitalize;
+        border-bottom: 8px inset #00514a;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment 01 -->
+    <!-- 
+      -- TODO --
+      - Create the same shape as shown below. ✅
+      - You must use the same colors. ✅
+     -->
+    <h1 class="title">Elzero Web School</h1>
+    <!-- DONE | Assignment 01 -->
+
+    <hr />
+    <!-- Assignment 02 -->
+    <!-- 
+      -- TODO --
+      - Use the previous structure and do not modify it. ✅
+      - Using CSS, Create the following shape and make sure the letters appear as shown in the image. ✅
+    -->
+    <p class="one">elzero Web school</p>
+    <p class="two">elzero Web school</p>
+    <p class="three">elzero Web school</p>
+
+    <!-- DONE | Assignment 02 -->
+    <hr />
+
+    <!-- Assignment 03 -->
+    <!-- 
+      -- TODO --
+      - Use the previous structure and do not modify it. ✅
+      - Make sure the element has the same colors and padding, and it's width is 400px. ✅
+      - The first shape in the image shows the element in its normal state; when the text increases, it wraps to the next line. ✅
+      - The second shape in the image shows the content is small and does not reach the end of the element. ✅
+      - The third shape contains the same text as the first shape. ✅
+      - You're required to cut off the text at the end of the element and prevent it from wrapping to the next line. ✅
+      - The ellipsis (...) should appear automatically and don't type it manually. ✅
+     -->
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea itaque fugit
+      vitae incidunt quis dolores? Id alias eveniet sequi perspiciatis iusto
+      impedit, accusamus maxime reprehenderit blanditiis adipisci sapiente hic
+      velit.
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur</div>
+    <div class="ellipsis">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea itaque fugit
+      vitae incidunt quis dolores? Id alias eveniet sequi perspiciatis iusto
+      impedit, accusamus maxime reprehenderit blanditiis adipisci sapiente hic
+      velit.
+    </div>
+    <hr />
+    <!-- DONE | Assignment 03 -->
+
+    <!-- Assignment 04 -->
+    <!-- 
+      -- TODO --
+      - Use the previous structure and do not modify it. ✅
+      - Make sure the link appears exactly in the center of the page. ✅
+      - Use the same colors and everything to make it look like the example. ✅
+     -->
+    <a href="https://elzero.org" class="elzero-channel">elzero</a>
+    <!-- DONE | Assignment 04 -->
+  </body>
+</html>

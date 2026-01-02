@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elements And Naming</title>
+    <!-- external css -->
+    <link rel="stylesheet" href="css/file.css" />
+
+    <!-- Write Path -->
+    <link rel="stylesheet" href="./master.css" />
+
+    <!-- Write Path -->
+    <link rel="stylesheet" href="../source/main.css" />
+
+    <!-- internal css -->
+    <style>
+      /* Any element with class title */
+      .title {
+      } /* Select a div element with class name title */
+      #nav {
+      } /* Select a HTML element with id nav */
+      div {
+      } /* Select all elements of type div */
+      h2 {
+      } /* Select all elements of type heading-1 */
+      p {
+        color: red;
+      }
+
+      /* Identifiers */
+
+      /* Yes */
+      ._user-name {
+      }
+
+      /* Yes */
+      .-user-name {
+      }
+
+      /* No */
+      .1user-name {
+      }
+
+      /* No */
+      .@user-name {
+      }
+
+      /* No */
+      .user@name {
+      }
+
+      /* Yes */
+      ._user10name {
+      }
+
+      /* Yes */
+      .u {
+      }
+
+      /* BAD */
+      .USERNAME {
+      }
+
+      /* BAD */
+      .UserName {
+      }
+
+      /* GOOD - kebab-case */
+      .user-name {
+      }
+
+      /* BAD */
+      .userName {
+      }
+
+      /* BAD */
+      .usernameprofile {
+      }
+    </style>
+  </head>
+  <body>
+    <!-- inline css -->
+    <p style="color: blue">This Is Our Paragraph</p>
+  </body>
+</html>

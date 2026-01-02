@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Radius, Box Shadow</title>
+    <style>
+      /* Assignment 01 */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        counter-set: cnt 0;
+      }
+      hr {
+        margin-block: 20px;
+      }
+      .assign-1 {
+        width: 100px;
+        height: 100px;
+        background-color: #eee;
+        float: left;
+        margin-left: 30px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        position: relative;
+        margin-top: 30px;
+        border: 2px solid black;
+        box-shadow: 5px 5px 0px 0px #2196f3, -5px -5px 0px 0px #e91e63;
+        -webkit-box-shadow: 5px 5px 0px 0px #2196f3, -5px -5px 0px 0px #e91e63;
+        -moz-box-shadow: 5px 5px 0px 0px #2196f3, -5px -5px 0px 0px #e91e63;
+        -o-box-shadow: 5px 5px 0px 0px #2196f3, -5px -5px 0px 0px #e91e63;
+      }
+      .assign-1::after {
+        counter-increment: cnt;
+        content: counter(cnt);
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        display: block;
+        width: 30px;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        font-family: "Arial";
+      }
+      .assign-1::before {
+        content: "Element";
+        position: absolute;
+        display: block;
+        text-align: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        font-family: arial;
+      }
+      .clear {
+        clear: both;
+      }
+      /* Assignment 02 */
+      .assign-2 {
+        margin-block: 20px;
+        width: 100px;
+        height: 100px;
+        background-color: #efefef;
+        border-radius: 10px 50px 10px 50px;
+        -webkit-border-radius: 10px 50px 10px 50px;
+        -moz-border-radius: 10px 50px 10px 50px;
+        -o-border-radius: 10px 50px 10px 50px;
+        box-shadow: 0px 0px 9px 5px #aaa inset;
+        -webkit-box-shadow: 0px 0px 9px 5px #aaa inset;
+        -moz-box-shadow: 0px 0px 9px 5px #aaa inset;
+        -o-box-shadow: 0px 0px 9px 5px #aaa inset;
+      }
+      /* Assignment 03 */
+      .parent {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 550px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0;
+        position: relative;
+        font-family: arial;
+      }
+      .parent::after {
+        content: "";
+        width: 2px;
+        background-color: #03a9f4;
+        position: absolute;
+        height: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .parent::before {
+        content: "Or";
+        display: block;
+        background-color: #03a9f4;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        font-size: 11px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 25px;
+        z-index: 1;
+        font-family: "Arial";
+        font-weight: bold;
+        color: white;
+      }
+      .col {
+        background-color: #eeeeee;
+        display: inline-block;
+        width: calc((100% - 30px) / 2);
+        font-size: 20px;
+        padding: 20px;
+      }
+      .col:first-child {
+        margin-right: 30px;
+      }
+      .title {
+        background-color: #03a9f4;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px 30px;
+        font-family: arial;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin-bottom: 30px;
+      }
+      .price {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        background-color: #ddd;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -o-border-radius: 50%;
+        font-size: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment 01 -->
+    <div class="assign-1"></div>
+    <div class="assign-1"></div>
+    <div class="assign-1"></div>
+    <div class="clear"></div>
+    <!-- 
+      -- TODO --
+
+      > Use the pervious structure without modifying it to create the same shape. ✅
+      > Make sure that you use the same colors shown in the layout.✅
+      > The width and height of the element are 100px.✅
+      > You must write the vendor prefixes for any CSS properties that requires a prefix.✅
+    -->
+    <hr />
+    <!-- DONE | Assignment 01 -->
+    <!-- Assignment 02 -->
+    <div class="assign-2"></div>
+    <!-- 
+      -- TODO -- 
+
+      > Use the previous structure without modifying it to create the same shape.✅
+      > Make sure to use the same colors shown in the layout.✅
+      > The width and height of the element are 100px.✅
+      > You must write the vendor prefixes for the Properties that require a prefix.✅
+      > Make sure the element is centered on the screen both vertically and horizontally.✅
+    -->
+    <hr />
+    <!-- DONE | Assignment 02 -->
+    <!-- Assignment 03 -->
+    <!-- 
+      -- TODO --
+
+      > Make sure to us the same colors shown in the layout.✅
+      > The parent element that contains all the elements must have a width of 550px.✅
+      > You must write the vendor prefixes for the properties that require a prefix.✅
+      > Make sure the element is centered horizontally on the screen.✅
+    -->
+    <div class="parent">
+      <div class="col">
+        <h3 class="title">Basic</h3>
+        <p class="price">Free</p>
+      </div>
+      <div class="col">
+        <h3 class="title">Pro</h3>
+        <p class="price">$30</p>
+      </div>
+    </div>
+    <hr />
+    <!-- DONE | Assignment 03 -->
+  </body>
+</html>

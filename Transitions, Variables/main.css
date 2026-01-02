@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+hr {
+  margin-block: 20px;
+}
+/* Assignment 01 */
+.assign-1 {
+  background-color: #f2f2f4;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 40px;
+  font-size: 20px;
+  margin-top: 40px;
+  transition: 0.5s linear;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+}
+.assign-1:hover {
+  margin-top: 0px;
+}
+.child {
+  background-color: #dededc;
+  padding: 20px;
+  margin-top: 5px;
+  transition: 0.5s linear 0.5s;
+  -webkit-transition: 0.5s linear 0.5s;
+  -moz-transition: 0.5s linear 0.5s;
+  -o-transition: 0.5s linear 0.5s;
+}
+.assign-1:hover .child {
+  margin-top: 30px;
+}
+/* Assignment 02 */
+.assign-2 {
+  background-color: #eee !important;
+  text-align: center;
+  width: 400px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none !important;
+  position: relative;
+  font-size: 0 !important;
+}
+.assign-2::before {
+  content: "Elzero";
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  font-family: "Arial";
+}
+/* Assignment 03 */
+:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+}
+.assign-3 {
+  width: 80%;
+  margin: 10px auto 0px;
+  border-color: black;
+  border: 2px solid var(--mainColor, black);
+  color: var(--mainColor, red);
+  font-family: arial;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+}

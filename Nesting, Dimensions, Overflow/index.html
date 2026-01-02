@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nesting, Dimensions, Overflow</title>
+    <style>
+      body {
+        font-size: 22px;
+      }
+      /* Assignment 01 */
+      .parent .title:nth-child(1) {
+        color: red;
+      }
+      .parent .title:nth-child(2) {
+        color: blue;
+      }
+      .parent p,
+      .parent + .title {
+        color: green;
+      }
+
+      /* Assignment 02 */
+      .dark-red {
+        background-color: #a52a2a;
+        color: white;
+        padding: 20px;
+        max-width: 400px;
+        max-height: 50px;
+        width: fit-content;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment 01 -->
+    <!-- 
+      -- TODO -- 
+      - Look at the following structure in the example and don't modify it.
+      - Color the word 'Title' red. ✅
+      - Color the phrase 'Child Title' blue.✅
+      - Color the phrase 'Paragraph Content' green. ✅
+      - Color the phrase 'Section Title' green. ✅
+      - Group similar colors together. ✅
+    -->
+
+    <div class="parent">
+      <div class="child">This Is Child <span class="title">Title</span></div>
+      <span class="title">Child Title</span>
+      <p>Paragraph Content</p>
+    </div>
+    <div class="title">Section Title</div>
+    <hr />
+    <!-- DONE | Assignment 01 -->
+
+    <!-- Assignment 02 -->
+    <!--
+      -- TODO --
+      - Create the shape shown in the image exactly as it is, using the same colors. ✅
+      - Don't change the element's display, it must remain `block`. ✅
+      - The element's width must not exceed 400px. ✅
+      - For the last element, any content that overflows the box should be hidden. ✅
+     -->
+
+    <p class="dark-red title-one">Title One</p>
+    <p class="dark-red title-two">Title Two With More Words</p>
+    <p class="dark-red title-three">Title Three With Many Many Many Words</p>
+    <p class="dark-red title-four">
+      Title Three With Many Many Many Words Title Three With Many Many Many
+      Words Title Three With Many Many Many Words Title Three With Many Many
+      Many Words
+    </p>
+    <hr />
+    <!-- DONE | Assignment 02 -->
+  </body>
+</html>

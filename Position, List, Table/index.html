@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position, List, Table</title>
+    <style>
+      /* Assignment 01 */
+      body {
+        position: relative;
+      }
+      .assign-1 {
+        height: 200px;
+      }
+      .green,
+      .red,
+      .blue,
+      .black {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+      }
+      .green {
+        background-color: #009688;
+        top: 30px;
+        left: 30px;
+        z-index: 3;
+      }
+      .red {
+        background-color: #f44336;
+        top: 40px;
+        left: 40px;
+        z-index: 4;
+      }
+      .blue {
+        background-color: #03a9f4;
+        top: 20px;
+        left: 20px;
+        z-index: 1;
+      }
+      .black {
+        background-color: #333333;
+        z-index: 0;
+        top: 30px;
+        left: 20px;
+      }
+      /* Assignment 02 */
+      .assign-2 {
+        margin-top: 40px;
+        padding: 20px;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #f44538 #2296f3;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 22px;
+        font-family: "Arial";
+        line-height: 1.8;
+        position: relative;
+        background-color: #eeeeee;
+        margin-bottom: 40px;
+      }
+      .top-left,
+      .top-right,
+      .bottom-left,
+      .bottom-right {
+        position: absolute;
+        font-size: 18px;
+        color: #fff;
+        background-color: #2296f3;
+        width: 50px;
+        font-weight: bold;
+      }
+      .top-left {
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+        border-right: 3px solid #f44538;
+      }
+      .top-right {
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+        border-left: 3px solid #f44538;
+      }
+      .bottom-left {
+        bottom: 0;
+        left: 0;
+        transform: translate(-50%, 50%);
+        border-right: 3px solid #f44538;
+      }
+      .bottom-right {
+        bottom: 0;
+        right: 0;
+        transform: translate(50%, 50%);
+        border-left: 3px solid #f44538;
+      }
+      /* Assignment 03 */
+      .langs {
+        margin: 20px;
+        list-style: none;
+      }
+      .lang-item {
+        background-color: #eeeeee;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 22px;
+        font-family: "Arial";
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .langs .lang-item .frameworks {
+        margin-top: 20px;
+      }
+      .frameworks li {
+        padding: 10px;
+        background-color: white;
+        margin-bottom: 10px;
+      }
+      /* Assignment 04 */
+      .assign-4 {
+        padding: 20px;
+      }
+      .dev-rating {
+        width: 700px;
+        background-color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 3px solid #009688;
+      }
+      .dev-rating .title {
+        font-size: 18px;
+        font-family: "Arial";
+        margin-bottom: 20px;
+      }
+      .dev-rating .header {
+        background-color: #404040;
+        color: #fff;
+        font-weight: bold;
+        font-family: "Arial";
+        text-align: center;
+      }
+      .dev-rating .header th {
+        padding: 15px;
+      }
+      .dev-rating .row {
+        background-color: #eeeeee;
+        text-align: center;
+      }
+      .dev-rating .row td {
+        font-family: "Arial";
+        line-height: 1;
+        padding: 20px;
+      }
+      .dev-rating .row td:first-child img {
+        padding: 2px;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+      }
+      .view,
+      .delete {
+        cursor: pointer;
+        color: white;
+        outline: none;
+        border: none;
+        font-size: 8px 15px;
+        padding: 10px;
+        font-weight: bold;
+      }
+      .view {
+        background-color: #03a9f4;
+      }
+      .delete {
+        background-color: #e91e63;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment 01 -->
+    <div class="assign-1">
+      <div class="green"></div>
+      <div class="red"></div>
+      <div class="blue"></div>
+      <div class="black"></div>
+    </div>
+    <!-- 
+        -- TODO --
+
+        > Use the previous code snippet without modifying it to create the same shape. ✅
+        > Make sure to use the same colors shown in the design. ✅
+        > Ensure that the width and height of all elements are 100px. ✅
+        > Make sure the layers are stacked correctly on top of each other. ✅
+    -->
+    <!-- DONE | Assignment 01 -->
+    <hr />
+
+    <!-- Assignment 02 -->
+    <div class="assign-2">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sed. Ea
+      ipsum similique quasi rem, fugiat voluptatibus reiciendis nam debitis
+      earum quo veniam laudantium mollitia atque! Laborum ea nam doloribus.
+      <span class="top-left">1</span>
+      <span class="bottom-left">2</span>
+      <span class="top-right">3</span>
+      <span class="bottom-right">4</span>
+    </div>
+    <!-- 
+        -- TODO --
+
+        > Use the previous code snippet without modifying it to create the same design.✅
+        > Set the width of the main div to 400px.✅
+        > Center the div horizontally on the screen.✅
+        > Make sure to use the same colors for all elements, whether for background, borders, or other properties.✅
+    -->
+    <!-- DONE | Assignment 02 -->
+    <hr />
+
+    <!-- Assignment 03 -->
+    <div class="assign-3">
+      <ul class="langs">
+        <li class="lang-item">
+          HTML
+          <ol class="frameworks" start="11">
+            <li>Slim</li>
+            <li>Pugjs</li>
+            <li>HAML</li>
+          </ol>
+        </li>
+        <li class="lang-item">
+          CSS
+          <ol
+            class="frameworks"
+            style="list-style-type: upper-roman"
+            start="10">
+            <li>SASS</li>
+            <li>LESS</li>
+            <li>PostCSS</li>
+          </ol>
+        </li>
+        <li class="lang-item">
+          JavaScript
+          <ul class="frameworks" style="list-style-position: inside">
+            <li>Vuejs</li>
+            <li>Sveltejs</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 
+        -- TODO --
+
+        > Use the previous code snippet and add classes or attributes as needed to achieve the required design.
+        > The width of the main unordered list is 400px.
+        > Center the element horizontally on the screen.
+        > Make sure to use the same colors for all elements.
+    -->
+    <!-- DONE | Assignment 03 -->
+    <hr />
+
+    <!-- Assignment 04 -->
+    <!-- 
+        -- TODO --
+
+        > Create the following shape using the table element only, and don't add any other elements. ✅
+        > Center the table element horizontally on the screen and make sure its width is 700px. ✅
+        > Ensure that you use the same colors for all elements whether for the background or the borders. ✅
+     -->
+    <div class="assign-4">
+      <table class="dev-rating">
+        <caption class="title">
+          Developer Rating
+        </caption>
+        <tr class="header">
+          <th>Avatar</th>
+          <th>Group</th>
+          <th>Name</th>
+          <th>Points</th>
+          <th>Control</th>
+        </tr>
+        <tr class="row">
+          <td>
+            <img src="avatar.jpg" alt="avatar image" style="width: 50px" />
+          </td>
+          <td>Ninja</td>
+          <td>Ahmed Mohamed</td>
+          <td>120</td>
+          <td>
+            <button class="view">View</button>
+            <button class="delete">Delete</button>
+          </td>
+        </tr>
+        <tr class="row">
+          <td>
+            <img src="avatar.jpg" alt="avatar image" style="width: 50px" />
+          </td>
+          <td rowspan="2">Shades</td>
+          <td>Shady Nabil</td>
+          <td>180</td>
+          <td>
+            <button class="view">View</button>
+            <button class="delete">Delete</button>
+          </td>
+        </tr>
+        <tr class="row">
+          <td>
+            <img src="avatar.jpg" alt="avatar image" style="width: 50px" />
+          </td>
+          <td>Eman Mohamed</td>
+          <td>160</td>
+          <td>
+            <button class="view">View</button>
+            <button class="delete">Delete</button>
+          </td>
+        </tr>
+        <tr class="row">
+          <td>
+            <img src="avatar.jpg" alt="avatar image" style="width: 50px" />
+          </td>
+          <td rowspan="2">Valhala</td>
+          <td>Mohamed Ibrahim</td>
+          <td>190</td>
+          <td>
+            <button class="view">View</button>
+            <button class="delete">Delete</button>
+          </td>
+        </tr>
+        <tr class="row">
+          <td>
+            <img src="avatar.jpg" alt="avatar image" style="width: 50px" />
+          </td>
+          <td>Noor Atef</td>
+          <td>110</td>
+          <td>
+            <button class="view">View</button>
+            <button class="delete">Delete</button>
+          </td>
+        </tr>
+        <tr class="row">
+          <td>
+            <img src="avatar.jpg" alt="avatar image" style="width: 50px" />
+          </td>
+          <td>Union</td>
+          <td>Mahmoud Adel</td>
+          <td>90</td>
+          <td>
+            <button class="view">View</button>
+            <button class="delete">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- DONE | Assignment 04 -->
+  </body>
+</html>

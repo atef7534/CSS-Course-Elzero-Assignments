@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float, Opacity</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #f6f6f6;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      /* Assignment 01 */
+      .parent {
+        overflow: hidden;
+      }
+      .row {
+        overflow: hidden;
+      }
+      .col {
+        float: left;
+        padding: 20px;
+        background-color: #ddd;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-left: 15px;
+      }
+      .row .col:first-child {
+        margin-left: 0px;
+      }
+      .full {
+        width: 100%;
+      }
+      .one-third {
+        width: calc((100% - 2 * 15px) / 3);
+      }
+      .one-half {
+        width: calc((100% - 15px) / 2);
+      }
+      .one-fourth {
+        width: calc((100% - 3 * 15px) / 4);
+      }
+      /* Assignment 02 */
+      div.assign-2 {
+        margin: 20px auto;
+        width: 300px;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 20px;
+        background-color: #b3b3b3; /* Get The Background From Image */
+        color: black;
+      }
+      div.assign-2.one {
+        background-color: hsla(0, 0%, 70%, 0.1);
+      }
+      div.assign-2.two {
+        opacity: 0.1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment 01 -->
+    <div class="parent">
+      <div class="row">
+        <div class="col full">Full Width</div>
+      </div>
+      <div class="row">
+        <div class="col one-third">1/3</div>
+        <div class="col one-third">1/3</div>
+        <div class="col one-third">1/3</div>
+      </div>
+      <div class="row">
+        <div class="col one-half">1/2</div>
+        <div class="col one-half">1/2</div>
+      </div>
+      <div class="row">
+        <div class="col one-fourth">1/4</div>
+        <div class="col one-fourth">1/4</div>
+        <div class="col one-fourth">1/4</div>
+        <div class="col one-fourth">1/4</div>
+      </div>
+    </div>
+    <!-- 
+      -- TODO --
+      > Create the following shape while considering the following requirements. 😒
+      > The parent element that contains all the inner elements has a width of 800px. 🤷‍♀️
+      > The parent element has no padding. 🤷‍♀️
+      > The horizontal spacing (gap) between the inner elements is 15px. 🤷‍♀️
+      > The vertical spacing between the inner elements is 15px. 🤷‍♀️
+      > You must not calculate the width of the elements manually; It must be dynamic because we will change the width of the parent element. 🤷‍♀️
+      > Change the parent element's width to 1000px and make sure nothing breaks. 🤷‍♀️
+    -->
+
+    <!-- DONE | Assignment 01 -->
+    <hr />
+
+    <!-- Assignment 02 -->
+    <!-- 
+      -- TODO --
+      > Use the previous code snippet and its styles to create the same shape. 👌
+      > The background of all elements should be the same as the first element but with different transparency. ✅
+      > The transparency of the last two elements is 0.1 .Make sure the shape appears as shown in the image.✅
+    -->
+    <div class="normal assign-2">Normal</div>
+    <div class="one assign-2">One</div>
+    <div class="two assign-2">Two</div>
+    <!-- DONE | Assignment 02 -->
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inheritance, Typography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Jomhuria&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
+    <style>
+      /* Assignment 01 */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      div {
+        width: 100%;
+        border: 3px solid red;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      p {
+        width: inherit;
+        padding: inherit;
+        background-color: #e7e7e7;
+        border: inherit;
+        font-size: 22px;
+        font-family: "Arial";
+        text-align: inherit;
+      }
+      /* Assignment 02 */
+      .assign-21 {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        font-weight: 300;
+      }
+      .assign-22 {
+        font-family: "Cairo";
+        font-weight: 700;
+      }
+      .assign-23 {
+        font-family: "Jomhuria";
+        font-weight: 400;
+      }
+      /* Assignment 03 */
+      .root {
+        font-size: 20px;
+      }
+      .assign-3 {
+        font-family: "Arial";
+        text-transform: capitalize;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: normal;
+      }
+      .assign-31 {
+        font-size: 3.125rem;
+      }
+      .assign-32 {
+        font-size: 2.5rem;
+      }
+      .assign-33 {
+        font-size: 1.875rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment 01 -->
+    <div>
+      <p>This Is Paragraph</p>
+    </div>
+    <!-- 
+      -- TODO --
+      - Use the previous code snippet and do not modify it. 👌
+      - Create the following shape exactly as it is. ✅
+      - Make sure that any change to the padding or border of the parent element (div) is reflected on the child element without modifying it. ✅
+      - The shape below is for illustration, showing how it would look if we changed the colors. ✅
+    -->
+    <hr />
+    <!-- DONE | Assignment 01  -->
+
+    <!-- Assignment 02 -->
+    <!-- 
+      -- TODO --
+      - Create the following shape using 3 different fonts. 👌
+      - In the first shape, Use the Open Sans font, make sure the font weight is 300 and apply an italic style. ✅
+      - In the second shape, Use the Cairo font and make sure the font weight is 700. ✅
+      - In the third shape, Use Jomhuria font family and make sure the font weight is 400. ✅
+    -->
+    <div class="root">
+      <h1 class="assign-2 assign-21">Elzero Web School</h1>
+      <h1 class="assign-2 assign-22">Elzero Web School</h1>
+      <h1 class="assign-2 assign-23">Elzero Web School</h1>
+    </div>
+    <hr />
+    <!-- DONE | Assignment 02 -->
+
+    <!-- Assignment 03 -->
+    <!-- 
+      -- TODO --
+      - The font size is 20px for the root element. 👌
+      - Use the root unit (rem) for the following three elements to achieve the required sizes. ✅
+      - For the first element, the font size should be 50px using rem. ✅
+      - For the second element, the font size should be 40px using rem. ✅
+      - For the third element, the font size should be 30px using rem. ✅
+     -->
+    <div class="root">
+      <h1 class="assign-3 assign-31">elzero web school</h1>
+      <h1 class="assign-3 assign-32">elzero web school</h1>
+      <h1 class="assign-3 assign-33">elzero web school</h1>
+    </div>
+    <!-- DONE | Assignment 03 -->
+  </body>
+</html>

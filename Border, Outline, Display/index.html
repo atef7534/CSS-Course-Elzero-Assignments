@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border, Outline, Display</title>
+  </head>
+  <!-- Internal css -->
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+    }
+    .assign-1-shape-1,
+    .assign-1-shape-2,
+    .assign-1-shape-3 {
+      display: inline-block;
+      background-color: #d4d4d4;
+      text-align: center;
+      padding: 20px;
+      font-size: 25px;
+      font-family: "Arial";
+      margin: 0px 5px;
+      outline: 5px solid black;
+    }
+    .assign-1-shape-1 {
+      border: 5px solid red;
+    }
+    .assign-1-shape-2 {
+      border: 5px solid;
+      border-color: blue green;
+    }
+    .assign-1-shape-3 {
+      border: 5px dashed;
+      border-color: red green blue yellow;
+    }
+    .element {
+      background-color: #eeeeee;
+      font-family: "Arial";
+      font-weight: 500;
+      font-size: 22px;
+      margin: 40px;
+      outline: 10px solid #eeeeee;
+      padding: 10px;
+    }
+    .element-1 {
+      border-left: 5px solid #e91e63;
+    }
+    .element-2 {
+      visibility: hidden;
+    }
+    .element-3 {
+      border-left: 5px solid #009688;
+    }
+  </style>
+  <body>
+    <!-- Assignment 01 -->
+    <!-- 
+        -- TODO --
+        ✅  CREATE 3 DIV ELEMENTS.
+        ✅  PLACE THE 3 ELEMENTS NEXT TO EACH OTHER WITHOUT SETTING A WIDTH FOR THEM.
+        ✅  CREATE THE SAME SHAPE SHOWN IN THE EXAMPLE USING THE SAME COLORS.
+        ✅  THE THICKNESS OF EACH BORDER IS 5PX.
+    -->
+    <div class="assign-1-shape-1">Shape 1</div>
+    <div class="assign-1-shape-2">Shape 2</div>
+    <div class="assign-1-shape-3">Shape 3</div>
+
+    <hr />
+
+    <!-- Assignment 02 -->
+    <!-- 
+        -- TODO -- 
+        ✅ Use the previous structure and don't modify it.
+        ✅ The width of the elements is 400px.
+        ✅ Hide the second element while keeping its place in the layout.
+        ✅ Create the shape as it shown in the image using the same colors.
+    -->
+    <div class="element element-1">This Is Important Note</div>
+    <div class="element element-2">This Is Important Note</div>
+    <div class="element element-3">This Is Important Note</div>
+
+    <hr />
+  </body>
+</html>

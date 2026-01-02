@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Classes, Pseudo Elements</title>
+    <style>
+      body {
+        counter-set: my-counter 0;
+      }
+      /* Assignment 01 */
+      .dv {
+        width: 300px;
+        height: 60px;
+        background-color: #eee;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 25px;
+        font-family: "Arial";
+        line-height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .dv:nth-child(2) {
+        background-color: red;
+      }
+      /* Assignment 02 */
+      .assign-2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ddd;
+        font-size: 22px;
+        padding: 20px 20px 20px 0px;
+        font-family: "Arial";
+        position: relative;
+      }
+      .assign-2::first-letter {
+        background-color: red;
+        color: white;
+        padding: 10px;
+        margin-left: -15px;
+      }
+      /* Assignment 03 */
+      .assign-3 {
+        background-color: #ddd;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding: 20px;
+        font-family: "Arial";
+        position: relative;
+        border-left: 5px solid #e91e63;
+      }
+      .assign-3::before {
+        content: attr(data-person);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -120px;
+        padding: 20px;
+        background-color: #ddd;
+      }
+      .assign-3::after {
+        content: "";
+        position: absolute;
+        left: -24px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent #e91e63 transparent transparent;
+      }
+      /* Assignment 04 */
+      .assign-4 {
+        padding: 20px;
+        background-color: #eee;
+        font-size: 22px;
+        font-family: Arial;
+        width: 80%;
+        margin: 10px auto;
+        position: relative;
+        border-right: 5px solid #f44336;
+      }
+      .assign-4::before {
+        counter-increment: my-counter;
+        content: counter(my-counter);
+        position: absolute;
+        left: -55px;
+        top: 0;
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Assignment 01 -->
+    <div class="dv">One</div>
+    <div class="dv"></div>
+    <div class="dv">Three</div>
+    <!-- 
+      -- TODO --
+
+      > Use the previous structure without modifying it and create the same shape. 👌
+      > Make sure to use the same colors shown in the shape. ✅
+      > Ensure that all divs are centered on the page horizontally. ✅
+      > The div's width is 300px and its height is 60px.✅
+    -->
+    <!-- DONE | Assignment 01 -->
+    <hr />
+
+    <!-- Assignment 02 -->
+    <div class="assign-2">1 Hello, Welcome To Elzero Web School</div>
+    <!-- 
+      -- TODO --
+
+      > Use the previous structure without modifying it to create the same design.👌
+      > Make sure to use the same colors shown in the layout.✅
+      > Ensure that the div is centered on the page.✅
+     -->
+    <hr />
+    <!-- DONE | Assignment 02 -->
+
+    <!-- Assignment 03 -->
+    <p class="assign-3" data-person="Osama">
+      This Is Very Very Long Comment Number One
+    </p>
+    <p class="assign-3" data-person="Ahmed">
+      This Is Very Very Long Comment Number Two
+    </p>
+    <p class="assign-3" data-person="Sayed">
+      This Is Very Very Long Comment Number Three
+    </p>
+    <!-- 
+      -- TODO -- 
+
+      > Use the previous structure without modifying it to create the same design.✅
+      > Ensure to use the same colors shown in the layout. ✅
+    -->
+    <hr />
+    <!--  DONE| Assignment 03 -->
+    <!-- Assignment 04 -->
+    <p class="assign-4">This Is Very Very Long Product Title</p>
+    <p class="assign-4">This Is Very Very Long Product Title</p>
+    <p class="assign-4">This Is Very Very Long Product Title</p>
+    <p class="assign-4">This Is Very Very Long Product Title</p>
+    <p class="assign-4">This Is Very Very Long Product Title</p>
+    <p class="assign-4">This Is Very Very Long Product Title</p>
+    <!-- 
+      -- TODO --
+
+      > Use the previous structure without modifying it to create the same design.
+      > Make sure to use the same colors shown in the layout.
+    -->
+    <!-- DONE | Assignment 04 -->
+  </body>
+</html>
