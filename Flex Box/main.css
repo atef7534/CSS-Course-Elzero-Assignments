@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+body {
+  margin: 20px;
+  font-family: arial;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* Assignment 01 */
+.assign-1 {
+  /* Set the element's width to 100px */
+  width: 100px;
+  /* Set the element's height to 100px */
+  height: 100px;
+  /* Center the element horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  /* Set the background to #eeeeee */
+  background-color: #eeeeee;
+  /* Center the text "Elzero" using flexbox properties */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Change the radius of border */
+  border-radius: 50%;
+  /* Add the prefixes for border-radius */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  /* Add box-shadow to this element */
+  box-shadow: 5px 0px 0px 0px #ff5722, -5px 0px 0px 0px #03a9f4;
+  /* Add the prefixes for box-shadow */
+  -webkit-box-shadow: 5px 0px 0px 0px #ff5722, -5px 0px 0px 0px #03a9f4;
+  -moz-box-shadow: 5px 0px 0px 0px #ff5722, -5px 0px 0px 0px #03a9f4;
+  -o-box-shadow: 5px 0px 0px 0px #ff5722, -5px 0px 0px 0px #03a9f4;
+}
+/* Assignment 02 */
+.assign-2 {
+  /* Set the width of the element to 600px and its height to 300px. */
+  width: 600px;
+  height: 300px;
+  /* Set the background color to #eeeeee*/
+  background-color: #eeeeee;
+  /* Center the parent element on the page horizontally. */
+  margin-left: auto;
+  margin-right: auto;
+  /* Use the Flexbox layout */
+  display: flex;
+  /* Wrap the inner elements */
+  flex-wrap: wrap;
+  /* Add vertical spacing between the elements */
+  align-content: space-between;
+  /* Some spacings */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* Create the same elements with the same shapes and positions.  */
+.assign-2 div {
+  /* Set the each element's width to (600px - 60px) / 6 */
+  width: calc((100% - 40px) / 3);
+  /* Set the background color to  #f44336*/
+  background-color: #f44336;
+  /* Set the text color to #FFF */
+  color: #fff;
+  /* Center the text horizontally */
+  text-align: center;
+  /* Fit the height to the text */
+  height: fit-content;
+  /* Some inner spacings */
+  padding: 10px;
+  /* Center the elements in the element horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  /* Set the font-size to 20px */
+  font-size: 20px;
+}
+/* Assignment 03 */
+.assign-3 {
+  /* Set the width of the parent element to 600px and its height to 300px. */
+  width: 600px;
+  height: 300px;
+  /* Center the parent element on the page horizontally. */
+  margin-left: auto;
+  margin-right: auto;
+  /* Set the background color to #eee */
+  background-color: #eee;
+  /* Add padding */
+  padding: 10px;
+  /* Set the display to flex */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.assign-3 div {
+  /* Set the background color to #607d8b */
+  background-color: #607d8b;
+  /* Set the text color to #FFF */
+  color: #fff;
+  /* Center the text horizontally */
+  text-align: center;
+  /* Set the width to 600px - padding / 3 */
+  width: calc((100% - 20px) / 3);
+  /* Add padding */
+  padding: 10px;
+  /* Set the font-size to 20px */
+  font-size: 20px;
+  /* Center the text both vertically and horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Reorder the child elements. */
+.assign-3 .one {
+  order: 6;
+  align-self: flex-end;
+}
+.assign-3 .two {
+  order: 5;
+}
+.assign-3 .three {
+  order: 2;
+  align-self: flex-start;
+}
+.assign-3 .four {
+  order: 3;
+}
+.assign-3 .five {
+  order: 4;
+}
+.assign-3 .six {
+  order: 1;
+}
+/* Assignment 04  */
+.assign-4 {
+  /* Set the parent element's width to 600px and its height to 300px. */
+  width: 600px;
+  height: 300px;
+  /* Center the parent element on the page horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  /* Set the background-color to #eee */
+  background-color: #eee;
+  /* Some padding */
+  padding: 10px;
+  /* Organize the elements to create the required shape. */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.assign-4 div {
+  /* Set the background-color to #009688 */
+  background-color: #009688;
+  /* Change the text color to #FFF */
+  color: #fff;
+  /* Set the width of the element to 100% */
+  /* Change the display to flex to center the text both vertically and horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Set the initial length of the element */
+  flex-basis: calc((100% - 20px) / 3);
+  padding: 15px;
+}
+.assign-4 .one {
+  align-self: flex-end;
+}
+.assign-4 .two {
+  width: 50%;
+}
+.assign-4 .three {
+  align-self: flex-end;
+}
+/* Assignment 05 */
+.assign-5 {
+  /* Set the parent element's width to 600px and its height to 300px. */
+  width: 600px;
+  height: 300px;
+  /* Center the parent element on the page horizontally. */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+  /* Creating the exact shape */
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  /* Some padding */
+  padding: 10px;
+  gap: 50px;
+}
+.assign-5 div {
+  color: #fff;
+  width: calc(100% / 4);
+  /* Center text both horizontally & vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Set the height of the child elements to half */
+  height: 50%;
+}
+.assign-5 .one {
+  background-color: #ff9800;
+  order: 2;
+}
+.assign-5 .two {
+  background-color: #8bc34a;
+  order: 3;
+  align-self: flex-end;
+}
+.assign-5 .three {
+  background-color: #795548;
+  order: 4;
+}
+.assign-5 .four {
+  background-color: #673ab7;
+  order: 1;
+  align-self: flex-end;
+}
+/* Assignment 06 */
+:root {
+  --primary-color: #eee;
+  --secondary-color: #ddd;
+  --space-10: 10px;
+}
+.assign-6 {
+  background-color: var(--primary-color);
+  padding: var(--space-10);
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+}
+.assign-6 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: var(--space-10);
+}
+.assign-6 .header .logo {
+  background-color: var(--secondary-color);
+  padding: 15px 50px;
+  font-size: 16px;
+}
+.assign-6 .header .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  gap: var(--space-10);
+  background-color: var(--secondary-color);
+  flex-grow: 1;
+  padding: 15px 20px;
+}
+.main-area {
+  display: flex;
+  gap: var(--space-10);
+  height: 400px;
+}
+.main-area .content {
+  background-color: var(--secondary-color);
+  padding: calc(5px + var(--space-10));
+  flex-grow: 2.5;
+}
+.main-area .sidebar {
+  background-color: var(--secondary-color);
+  padding: calc(5px + var(--space-10));
+  flex-grow: 1.5;
+}
+.footer {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-10);
+}
+.copyright,
+.design {
+  padding: calc(var(--space-10) - 5px);
+}
