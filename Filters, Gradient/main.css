@@ -1,0 +1,70 @@
+:root {
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+hr {
+  margin: 50px;
+}
+/* index.html */
+/* Assignment 01 */
+.assign-1 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 35px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+  border: 10px solid;
+  border-image: linear-gradient(
+      to right,
+      #f44336 20%,
+      #2196f3 20%,
+      #2196f3 40%,
+      #4caf50 40%,
+      #4caf50 60%,
+      #e91e63 60%,
+      #e91e63 80%,
+      #673ab7 80%
+    )
+    1;
+  font-weight: bold;
+}
+.assign-1:first-letter {
+  color: #f44336;
+}
+/* Assignment 02 */
+.assign-2 {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.assign-2 input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(
+      to right,
+      #f44336 50%,
+      #009688 50%,
+      #009688 100%
+    )
+    1;
+  padding: 20px;
+  font-size: 21px;
+  background-color: #eee;
+  margin-bottom: 10px;
+  caret-color: red;
+}
+/* -- DONE -- */
