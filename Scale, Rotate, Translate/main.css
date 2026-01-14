@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+hr {
+  margin: 50px;
+}
+/* index.html styling */
+/* Assignment 01 */
+.assign-1 {
+  margin-top: 30px;
+  width: 300px;
+  height: 200px;
+  background-color: #eee;
+  border: 2px solid #ddd;
+  font-size: 3rem;
+  color: #03a9f4;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.assign-1::before,
+.assign-1::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #03a9f4;
+  rotate: -7deg;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.assign-1::after {
+  background-color: #e91e63;
+  rotate: 7deg;
+}
+/* Assignment 02 */
+/* Assignment 03 */
+.assign-2,
+.assign-3 {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  background-color: #eee;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-left: auto;
+  font-size: 2rem;
+  margin-right: auto;
+  font-weight: bold;
+  position: relative;
+}
+.assign-2::after,
+.assign-2::before,
+.assign-3::after,
+.assign-3::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.assign-2::after,
+.assign-3::after {
+  border: 8px solid;
+  border-color: #e91e63 #e91e63 #e91e63 transparent;
+  top: -8px;
+  left: -8px;
+}
+.assign-2::before,
+.assign-3::before {
+  width: calc(100% + 16px);
+  height: calc(100% + 16px);
+  border: 8px solid;
+  border-color: #2196f3 transparent #2196f3 #2196f3;
+  top: -16px;
+  left: -16px;
+}
+.assign-3::after {
+  transition: 0.5s transform ease-in-out;
+}
+.assign-3::before {
+  transition: 0.5s transform ease-in-out 0.5s;
+}
+.assign-3:hover::after,
+.assign-3:hover::before {
+  transform: rotate(360deg);
+}
