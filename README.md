@@ -32,6 +32,7 @@ The assignments are organized into folders based on lesson groups:
 - [Pseudo Classes, Pseudo Elements - (4 assignments — Lessons 34–37)](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Pseudo%20Classes%2C%20Pseudo%20Elements)
 - [Border Radius, Box Shadow - (3 assignments — Lessons 38–41)](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Border%20Radius%2C%20Box%20Shadow)
 - [Transitions, Variables - (3 assignments — Lessons 42–45)](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Transitions%2C%20Variables) 
+- [Flexbox - (6 assignments — Lessons 46–53)](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Filters%2C%20Gradient) 
 - [Flexbox - (6 assignments — Lessons 46–53)](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Flex%20Box) 
 - [Grid - (6 assignments — Lessons 57–64)](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Grid) 
 
