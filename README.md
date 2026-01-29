@@ -33,7 +33,6 @@ Each folder represents a specific topic range from the course and includes the r
 | Selectors                     | 78 – 82           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/selectors/index.html)                  |
 | Media Queries                 | 83 – 85           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/media-queries/index.html)              |
 | Global Values                 | 86 – 88           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/global-values/index.html)              |
-| Full Course (All Assignments) | 01 – 88           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/all-course/index.html)                 |
 
 ## 🚀 About the Course
 
