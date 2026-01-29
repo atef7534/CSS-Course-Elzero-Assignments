@@ -1,4 +1,9 @@
 # CSS Course – Elzero Assignments 🎨
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![Elzero Web School](https://img.shields.io/badge/Elzero-Web%20School-orange)
+![Assignments Completed](https://img.shields.io/badge/Assignments-88%2F88-success)
+![GitHub stars](https://img.shields.io/github/stars/atef7534/CSS-Course-Elzero-Assignments?style=social)
 
 This repository contains my solutions for **Elzero Web School CSS Course assignments**, organized by lesson groups.  
 Each folder represents a specific topic range from the course and includes the related assignments.
