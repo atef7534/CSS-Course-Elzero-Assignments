@@ -12,7 +12,7 @@ Welcome to my CSS assignments repository! This project tracks my progress throug
 
 | Folder Name | Lessons Range | Direct Link |
 | :--- | :--- | :--- |
-| **Elements And Naming** | [01 - 04] | [index.html[](./Elements%20And%20Naming/index.html](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Elements%20and%20Naming)) |
+| **Elements And Naming** | [01 - 04] | [index.html]([./Background,%20Margin,%20Padding/index.html](https://github.com/atef7534/CSS-Course-Elzero-Assignments/tree/main/Elements%20and%20Naming))  |
 | **Background, Margin, Padding** | [05 - 08] | [index.html](./Background,%20Margin,%20Padding/index.html) |
 | **Border, Outline, Display** | [09 - 12] | [index.html](./Border,%20Outline,%20Display/index.html) |
 | **Nesting, Dimensions, Overflow** | [13 - 16] | [index.html](./Nesting,%20Dimensions,%20Overflow/index.html) |
