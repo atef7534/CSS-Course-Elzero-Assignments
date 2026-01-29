@@ -1,0 +1,62 @@
+@import "./index.css";
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  position: relative;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+.parent .circle-100,
+.parent .circle-200 {
+  background-color: rgb(231, 231, 231);
+}
+
+/* Assignment 02 */
+.arrow {
+  background-color: #ddd;
+  padding: 20px;
+  width: auto;
+  margin: 20px;
+  font-size: 20px;
+  position: relative;
+}
+
+.arrow::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 20px solid #ab1a1a;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.arrow.top::after {
+  border-color: transparent transparent #ddd transparent;
+  left: 50%;
+  top: -40px;
+}
+
+.arrow.left::after {
+  border-color: transparent #ddd transparent transparent;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow.right::after {
+  border-color: transparent transparent transparent #ddd;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow.bottom::after {
+  border-color: #ddd transparent transparent transparent;
+  left: 50%;
+  bottom: -40px;
+}

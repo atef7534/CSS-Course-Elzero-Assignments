@@ -1,0 +1,37 @@
+/* General rules */
+hr {
+  margin: 50px;
+}
+:root {
+  /* 00 - 25 */
+  /* Assignment 01 */
+  --border-width-1: 5px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+/* Assignment 01 */
+.assign-1 {
+  margin-top: 40px;
+  margin-inline: auto;
+  max-width: 800px;
+  text-align: center;
+  font-size: 1.9rem;
+  position: relative;
+  border: var(--border-width-1) solid #008000;
+  padding: 50px;
+  outline: var(--border-width-1) solid black;
+}
+.assign-1::before {
+  content: "";
+  outline: var(--border-width-1) solid #0000ff;
+  border: var(--border-width-1) solid #ff0000;
+  display: block;
+  position: absolute;
+  inset: 4px;
+}

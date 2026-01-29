@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+:root {
+  /* Variables for assignment 01 */
+  --bg-color-1: #ff5722;
+  --txt-color-1: #fff;
+  /* Variables for assignment 02 */
+  --bg-color-2: #009688;
+  --txt-color-2: #fff;
+  /* Variables for assignment 04 */
+  --black-color-4: #000000;
+  --gray-color-4: #607d8b;
+  /* Variables for assignment 05 */
+  --purple-color-5: #fa3664;
+  --blue-color-5: #0075ff;
+}
+hr {
+  margin: 50px;
+}
+/* Assignment 01 */
+.assign-1 {
+  margin-top: 40px;
+  margin-inline: auto;
+  color: var(--txt-color-1);
+  background-color: var(--bg-color-1);
+  width: 150px;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  padding: 10px;
+}
+.assign-1::after,
+.assign-1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  z-index: -1;
+}
+.assign-1::after {
+  transform: skew(10deg, 10deg);
+  right: 0;
+}
+.assign-1::before {
+  transform: skew(-10deg, -10deg);
+  left: 0;
+}
+/* Assignment 02 */
+.assign-2 {
+  color: var(--txt-color-2);
+  background-color: var(--bg-color-2);
+  padding: 10px;
+  padding-block: 20px;
+  margin-inline: auto;
+  width: 200px;
+  text-align: right;
+  font-size: 3rem;
+  position: relative;
+}
+.assign-2::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  background-color: inherit;
+  left: -18px;
+  top: 0px;
+  transform: skewX(20deg);
+  width: 35px;
+}
+.assign-2::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background-color: var(--txt-color-2);
+  left: 13px;
+  top: 0;
+  transform: skewX(20deg);
+}
+/* Assignment 04 */
+.assign-4 {
+  width: 200px;
+  height: 200px;
+  background-color: var(--gray-color-4);
+  border-bottom: 5px solid var(--black-color-4);
+  margin-inline: auto;
+  position: relative;
+  margin-top: 140px;
+}
+.assign-4::before {
+  content: "Elzero";
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  font-size: 1.2rem;
+  color: var(--txt-color-1);
+  font-family: arial;
+}
+.assign-4::after {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: var(--black-color-4);
+  z-index: 1;
+  transform: rotate(45deg);
+  border: 5px solid var(--txt-color-1);
+  left: 30px;
+  top: -70px;
+}
+/* Assignment 05 */
+body {
+  perspective: 1000px;
+}
+.assign-5 {
+  width: 200px;
+  height: 200px;
+  margin-inline: auto;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+.assign-5:hover {
+  transform: rotateX(-180deg);
+}
+.assign-5::after,
+.assign-5::before {
+  font-family: arial;
+  font-size: 30px;
+  width: 100%;
+  display: block;
+  color: var(--txt-color-1);
+  height: 100%;
+  text-align: center;
+  line-height: 200px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.assign-5::before {
+  content: "Front";
+  background-color: var(--purple-color-5);
+}
+.assign-5::after {
+  content: "Back";
+  background-color: var(--blue-color-5);
+  transform: rotateX(180deg);
+}

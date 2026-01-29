@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --bg-color: #eeeeee;
+  --code-color: #009688;
+  --bd-color: #dddddd;
+  --f-color: #787675;
+}
+
+.input-box {
+  padding: 20px;
+  background-color: var(--bg-color);
+  width: 400px;
+  font-family: Arial;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prefix {
+  background-color: var(--code-color);
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 5px 0px 0px 5px;
+  border: 2px solid var(--bd-color);
+  border-right: none;
+}
+
+[type="tel"] {
+  font-size: 22px;
+  border: 2px solid var(--bd-color);
+  padding: 10px;
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
+  caret-color: var(--code-color);
+  outline: none;
+  flex: 1;
+}

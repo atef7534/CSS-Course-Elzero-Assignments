@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #eeeeee;
+  --txt-color: #31a89d;
+}
+
+body {
+  font-family: arial;
+}
+
+@media print {
+  .assign-one {
+    font-size: 40px;
+  }
+}
+
+.products {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.products .product {
+  background-color: var(--bg-color);
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  flex-basis: calc(calc(100% - 30px) / 4);
+}
+
+@media screen and (max-width: 991px) {
+  .products .product {
+    flex-basis: calc(calc(100% - 10px) / 2);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .products .product {
+    flex-basis: 100%;
+  }
+}
+
+.products .product h3 {
+  color: var(--txt-color);
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 991px) {
+  .products .product h3 {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .products .product h3 {
+    color: rgb(0, 0, 0);
+  }
+}
+
+/* Assignment 02 */
+.products-2 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.products-2 .product {
+  background-color: var(--bg-color);
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.products-2 .product.one {
+  flex-basis: 100%;
+}
+
+.products-2 .product.two,
+.products-2 .product.three {
+  flex-basis: calc(50% - 5px);
+}
+
+.products-2 .product.four {
+  flex-basis: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .products-2 .product:not(:first-child) {
+    flex-basis: calc(calc(100% - 20px) / 3);
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .products-2 .product:not(:first-child) {
+    flex-basis: 100%;
+  }
+}
+
+.products-2 .product h3 {
+  color: var(--txt-color);
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 991px) {
+  .products-2 .product h3 {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .products-2 .product h3 {
+    color: black;
+  }
+}
