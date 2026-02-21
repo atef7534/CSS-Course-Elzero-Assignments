@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: Arial;
+}
+
+:root {
+  --bg-color: #2196f3;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  background-color: var(--bg-color);
+  width: fit-content;
+  padding: 15px;
+  margin: 15px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.url::before {
+  content: "Name: " attr(title) "| URL: " attr(href);
+}
+
+.link::before {
+  content: "Name: " attr(title) "| URL: " attr(href);
+}
+
+[href="https://www.elzero.courses/"]::before {
+  content: "Name: " attr(title) "| URL: " attr(href);
+}

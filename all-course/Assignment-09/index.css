@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: var(--bg-color);
+}
+
+:root {
+  --bg-color: #eeeeee;
+  --top-color: #ff4d00;
+  --bottom-color: #ffb700;
+}
+
+.text {
+  padding: 20px;
+  font-size: 5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  background: linear-gradient(to bottom, var(--top-color), var(--bottom-color));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

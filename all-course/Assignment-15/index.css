@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  color: white;
+  font-size: 4rem;
+  -webkit-text-stroke: 3px #9c27b0;
+}

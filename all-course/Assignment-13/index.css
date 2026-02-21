@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Colors Palette */
+:root {
+  --bg-color: #eeeeee;
+  --border-color: #3171ff;
+  --dark-color: #555555;
+  --grey-color: #c9c9c9;
+  --giga-color: #929292;
+}
+
+/* Start styling */
+.subscribe {
+  background-color: var(--bg-color);
+  width: 800px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 10px auto;
+  gap: 25px;
+}
+
+.offer {
+  background-color: white;
+  width: calc(100% / 3);
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 0px 10px var(--grey-color);
+}
+
+.offer.active {
+  outline: 2px solid var(--border-color);
+}
+
+.offer:hover {
+  outline: 2px solid var(--border-color);
+}
+
+.offer::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--grey-color);
+  top: 15px;
+  right: 15px;
+}
+
+.offer.active::after {
+  background-color: #3171ff;
+}
+
+.offer:hover::after {
+  background-color: var(--border-color);
+}
+
+.offer .title {
+  color: var(--dark-color);
+  font-size: 1.1rem;
+}
+
+.bandwidth {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: var(--giga-color);
+  font-weight: normal;
+}
+
+.bandwidth .focus {
+  color: var(--dark-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px
+}
+
+.bandwidth .focus sub {
+  display: inline-block;
+  transform: translateY(-10px);
+  font-size: 1.6rem;
+  margin-left: 1px;
+}
+
+.price {
+  color: var(--giga-color);
+  font-size: 0.86rem;
+}
+
+.price .special {
+  color: var(--dark-color);
+  font-size: 1.12rem;
+  font-weight: bold;
+}

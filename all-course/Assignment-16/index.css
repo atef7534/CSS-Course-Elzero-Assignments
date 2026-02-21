@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #eeeeee;
+  --bg-color-2: #dddddd;
+  --bg-color-3: #cccccc;
+  --blue-color: #009aff;
+  --yellow-color: #ffe400;
+}
+
+body {
+  font-family: "Arial", "Sans-serif";
+  background-color: var(--bg-color);
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+table caption {
+  caption-side: bottom;
+  background-color: var(--bg-color-3);
+  padding: 15px;
+  font-weight: bold;
+}
+
+thead th {
+  padding: 15px;
+  background-color: var(--bg-color-2);
+  font-size: 1rem;
+}
+
+tbody td {
+  background-color: white;
+  padding: 15px;
+}
+
+tfoot td {
+  color: white;
+  background-color: var(--blue-color);
+  padding: 15px;
+  font-weight: bold;
+}
+
+tfoot td[colspan="3"] {
+  background-color: var(--yellow-color);
+  color: black;
+}

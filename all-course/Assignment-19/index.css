@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eeeeee;
+}
+
+:root {
+  --b: 10px;
+}
+
+div {
+  width: 600px;
+  height: 100px;
+  box-shadow:
+    0 0 0 var(--b) #cddc39,
+    0 0 0 calc(var(--b) * 2) #e91e63,
+    0 0 0 calc(var(--b) * 3) #9c27b0,
+    0 0 0 calc(var(--b) * 4) #4cac53,
+    0 0 0 calc(var(--b) * 5) #3f51b5,
+    0 0 0 calc(var(--b) * 6) #795548,
+    0 0 0 calc(var(--b) * 7) #ffc107,
+    0 0 0 calc(var(--b) * 8) #009688;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}

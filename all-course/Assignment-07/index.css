@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first-ul-bg: #eeeeee;
+  --marker-li-bg: #dddddd;
+  --first-li-color: #333;
+  --teal-green: #009688;
+}
+
+body {
+  counter-set: n 0;
+  font-family: arial;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body > ul {
+  background-color: var(--first-ul-bg);
+  padding: 10px;
+}
+
+body > ul > li {
+  color: var(--first-li-color);
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+body > ul > li:first-child {
+  margin-top: 0px;
+}
+body > ul > li:last-child {
+  background-color: var(--marker-li-bg);
+}
+
+body > ul > li::before {
+  counter-increment: n;
+  content: counter(n);
+  background-color: var(--marker-li-bg);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+body > ul > li:last-child::before {
+  background-color: #fff;
+  margin-left: 5px;
+}
+
+body > ul > li > ul {
+  padding: 10px 20px;
+  counter-reset: n 0;
+}
+
+body > ul > li:last-child > ul > li {
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+body > ul > li:last-child > ul > li::before {
+  counter-increment: n;
+  content: "4." counter(n);
+  background-color: var(--teal-green);
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 19px;
+}

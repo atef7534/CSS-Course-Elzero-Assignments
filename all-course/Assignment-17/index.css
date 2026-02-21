@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+div {
+  column-count: 3;
+  font-size: 17px;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-family: "Arial", "Sans-serif";
+  column-gap: 50px;
+  position: relative;
+  background-color: white;
+  padding: 20px;
+}
+
+div::before,
+div::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 5%;
+  background: repeating-linear-gradient(
+    to bottom,
+    #333 0 6px,
+    transparent 10px 15px
+  );
+  width: 1.5px;
+  height: 90%;
+}
+
+div::before {
+  left: 32%;
+}
+
+div::after {
+  left: 65%;
+}

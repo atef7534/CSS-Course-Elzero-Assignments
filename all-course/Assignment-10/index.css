@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-tile: black;
+  --white-tile: white;
+  --bg-chessboard: #eee;
+}
+
+body {
+  background-color: var(--bg-chessboard);
+}
+
+.container {
+  border: 3px solid var(--black-tile);
+  width: 600px;
+  height: 600px;
+  margin: 5vh auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width: calc(100% / 8);
+  height: calc(100% / 8);
+}
+.black {
+  background-color: var(--black-tile);
+}
+
+.white {
+  background-color: var(--white-tile);
+}

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color-1: #e7e7e7;
+  --bg-color-2: #ffffff;
+  --bd-color-1: #dddddd;
+  --m-color-1: #0075ff;
+}
+
+.prices {
+  position: relative;
+  font-family: "Arial", sans-serif;
+}
+
+.floating-title {
+  padding: 12px;
+  position: absolute;
+  width: 300px;
+  background-color: var(--m-color-1);
+  color: var(--bg-color-2);
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 49%);
+  text-transform: capitalize;
+}
+
+.floating-title::before {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent #0b56ac #0b56ac transparent;
+  position: absolute;
+  top: 0;
+  right: 100%;
+}
+
+.floating-title::after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #0b56ac #0b56ac;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.container {
+  background-color: var(--bg-color-1);
+  width: 70%;
+  margin: 50px auto;
+  padding: 40px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 15px;
+}
+
+.box {
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #ddd;
+  background-color: var(--bg-color-2);
+  width: calc(100% / 3);
+}
+
+.title {
+  padding: 30px 0 30px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.price .special-blue {
+  color: var(--m-color-1);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 4px;
+}
+
+.price .special-blue sup {
+  font-size: 2rem;
+  transform: translateY(5px);
+  display: inline-block;
+}
+
+.benefits {
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.benefits p {
+  padding: 10px;
+}
+
+.benefits .special-bold {
+  color: #888;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.cta {
+  position: relative;
+  bottom: 0;
+}
+
+.cta button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--m-color-1);
+  color: var(--bg-color-2);
+  padding: 20px 35px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+}

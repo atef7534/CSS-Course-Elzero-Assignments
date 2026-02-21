@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+
+h1 {
+  font-family: "Consolas", sans-serif;
+  background-color: white;
+  border-radius: 22px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0) #f44336 black;
+  border-top: none;
+  position: relative;
+  width: 150px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+h1::after,
+h1::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  border: 5px solid #f44336;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1::after {
+  left: -30px;
+}
+
+h1::before {
+  right: -30px;
+}

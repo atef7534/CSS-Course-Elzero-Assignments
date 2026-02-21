@@ -4,7 +4,7 @@
   width: fit-content;
   cursor: pointer;
   /* Adds depth to the child elements' movements */
-  perspective: 1000px; 
+  perspective: 1000px;
 }
 
 .menu span {
@@ -20,7 +20,7 @@
 
 /* Top bar: Slides down, rotates 45deg, and flips forward */
 .menu:hover span:nth-child(1) {
-  transform: translateY(11px) rotateZ(-45deg) rotateY(180deg);
+  transform: translateY(11px) rotateZ(45deg) rotateY(180deg);
   background-color: #ff4757;
 }
 
@@ -32,6 +32,7 @@
 
 /* Bottom bar: Slides up, rotates 45deg, and flips backward */
 .menu:hover span:nth-child(3) {
-  transform: translateY(-11px) rotateZ(45deg) rotateY(-180deg);
+  transform: translateY(-11px) rotateZ(-45deg) rotateY(-180deg);
   background-color: #ff4757;
 }
+
