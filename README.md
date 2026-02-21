@@ -8,6 +8,7 @@
 
 This repository contains my solutions for **Elzero Web School CSS Course assignments**, organized by lesson groups.  
 Each folder represents a specific topic range from the course and includes the related assignments.
+![](https://i.imgur.com/waxVImv.png)
 
 ## 📁 Course Structure
 
