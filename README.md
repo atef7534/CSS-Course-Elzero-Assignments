@@ -14,26 +14,26 @@ Each folder represents a specific topic range from the course and includes the r
 
 | Folder Name                   | Assignments Range | Link                                                                                                           |
 | ----------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
-| Elements And Naming           | 01 – 04           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/elements-and-naming/index.html)        |
-| Background, Margin, Padding   | 05 – 08           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/background-margin-padding/index.html)  |
-| Border, Outline, Display      | 09 – 12           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/border-outline-display/index.html)     |
-| Nesting, Dimensions, Overflow | 13 – 16           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/nesting-dimension-overflow/index.html) |
-| Text Formatting               | 17 – 21           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/text-formatting/index.html)            |
-| Inheritance, Typography       | 22 – 26           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/inheritance-typography/index.html)     |
-| Float, Opacity                | 27 – 29           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/float-opacity/index.html)              |
-| Position, List, Table         | 30 – 33           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/position-list-table/index.html)        |
-| Pseudo Classes & Elements     | 34 – 37           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/pseudo-classes-elements/index.html)    |
-| Border Radius, Box Shadow     | 38 – 41           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/border-radius-box-shadow/index.html)   |
-| Transitions & Variables       | 42 – 45           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/transitions-variables/index.html)      |
-| Flexbox                       | 46 – 53           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/flex-box/index.html)                   |
-| Filters & Gradients           | 54 – 56           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/filters-gradient/index.html)           |
-| Grid                          | 57 – 64           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/grid/index.html)                       |
-| Scale, Rotate, Translate      | 65 – 67           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/scale-rotate-translate/index.html)     |
-| Skew, Matrix, 3D Transform    | 68 – 73           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/skew-matrix-3d/index.html)             |
-| Animation                     | 74 – 77           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/animation/index.html)                  |
-| Selectors                     | 78 – 82           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/selectors/index.html)                  |
-| Media Queries                 | 83 – 85           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/media-queries/index.html)              |
-| Global Values                 | 86 – 88           | [Open Project](https://atef7534.github.io/CSS-Course-Elzero-Assignments/global-values/index.html)              |
+| Elements And Naming           | 01 – 04           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/elements-and-naming/index.html)        |
+| Background, Margin, Padding   | 05 – 08           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/background-margin-padding/index.html)  |
+| Border, Outline, Display      | 09 – 12           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/border-outline-display/index.html)     |
+| Nesting, Dimensions, Overflow | 13 – 16           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/nesting-dimension-overflow/index.html) |
+| Text Formatting               | 17 – 21           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/text-formatting/index.html)            |
+| Inheritance, Typography       | 22 – 26           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/inheritance-typography/index.html)     |
+| Float, Opacity                | 27 – 29           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/float-opacity/index.html)              |
+| Position, List, Table         | 30 – 33           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/position-list-table/index.html)        |
+| Pseudo Classes & Elements     | 34 – 37           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/pseudo-classes-elements/index.html)    |
+| Border Radius, Box Shadow     | 38 – 41           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/border-radius-box-shadow/index.html)   |
+| Transitions & Variables       | 42 – 45           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/transitions-variables/index.html)      |
+| Flexbox                       | 46 – 53           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/flex-box/index.html)                   |
+| Filters & Gradients           | 54 – 56           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/filters-gradient/index.html)           |
+| Grid                          | 57 – 64           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/grid/index.html)                       |
+| Scale, Rotate, Translate      | 65 – 67           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/scale-rotate-translate/index.html)     |
+| Skew, Matrix, 3D Transform    | 68 – 73           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/skew-matrix-3d/index.html)             |
+| Animation                     | 74 – 77           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/animation/index.html)                  |
+| Selectors                     | 78 – 82           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/selectors/index.html)                  |
+| Media Queries                 | 83 – 85           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/media-queries/index.html)              |
+| Global Values                 | 86 – 88           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/global-values/index.html)              |
 
 ## 🚀 About the Course
 
