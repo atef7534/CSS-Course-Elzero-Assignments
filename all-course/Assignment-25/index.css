@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+.login-system {
+  background-color: white;
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: "Arial", sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.login-system::before {
+  content: "Or";
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30px, 30px);
+  color: #7e7e7e;
+  z-index: 2;
+}
+
+.login-system::after {
+  content: "";
+  width: 1px;
+  height: 180px;
+  background-color: #ddd;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-12px, -45px);
+  z-index: 1;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #007aff;
+  text-align: center;
+  padding: 20px;
+}
+
+.flex-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.col {
+  flex: 1 1 80%;
+}
+
+.email-part {
+  display: block;
+  padding: 20px 15px 15px;
+  color: #698088;
+}
+
+.email-input,
+.password-input {
+  display: block;
+  margin-top: 5px;
+  font-size: 1rem;
+  line-height: 1.6;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  padding-left: 10px;
+  caret-color: #007aff;
+  padding-block: 5px;
+  width: calc(100% - 30px);
+}
+
+.password-part {
+  display: block;
+  padding: 5px 15px 15px;
+  color: #698088;
+}
+
+.submit-btn {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: #007aff;
+  padding: 10px;
+  font-size: 1rem;
+  display: block;
+  width: calc(100% - 60px);
+  cursor: pointer;
+}
+
+.connect {
+  padding: 20px;
+  color: #91a0a4;
+  text-align: center;
+  font-weight: normal;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social button {
+  display: block;
+  width: calc(100% - 30px);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #007aff;
+}
+
+.twitter {
+  background-color: #1ea1f3;
+}
+
+.linkedin {
+  background-color: #0177b5;
+}
