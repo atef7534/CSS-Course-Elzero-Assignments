@@ -31,7 +31,6 @@ Each folder represents a specific topic range from the course and includes the r
 | Scale, Rotate, Translate      | 65 – 67           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/scale-rotate-translate/index.html)     |
 | Skew, Matrix, 3D Transform    | 68 – 73           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/skew-matrix-3d/index.html)             |
 | Animation                     | 74 – 77           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/animation/index.html)                  |
-| Selectors                     | 78 – 82           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/selectors/index.html)                  |
 | Media Queries                 | 83 – 85           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/media-queries/index.html)              |
 | Global Values                 | 86 – 88           | [Demo](https://atef7534.github.io/CSS-Course-Elzero-Assignments/global-values/index.html)              |
 
